@@ -15,3 +15,6 @@
  */
 
 @import "basic.css.scss";
+@import "welcome/servant.css.scss";
+@import "welcome/welcome.css.scss";
+@import "welcome/slogan_media_query.css.scss";

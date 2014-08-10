@@ -1,8 +1,11 @@
-
 body {
   font-family: 'Open Sans', Helvetica, Arial;
   background-color: #433f3c;
   color: #ffffff;
+}
+
+a:hover, a:visited, a:active {
+  text-decoration: none;
 }
 
 div.container {
@@ -12,6 +15,7 @@ div.container {
 div.content-container {
   padding-top: 100px;
   /* Height is set by JQuery */
+  overflow: hidden;
 }
 
 div.navbar {
@@ -21,8 +25,31 @@ div.navbar {
   box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  background-color: #1c1b19;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .navbar-header {
+  border: none;
+}
+
 ul.navbar-nav {
   float: right;
+}
+
+ul.navbar-nav li {
+  padding-right: 50px;
+  margin-right: 25px;
+  font-size: 16px;
+  background: image-url('arrow_right.png');
+  background-repeat: no-repeat;
+  background-position: right 25px;
+}
+
+ul.navbar-nav li:last-child {
+  padding-right: 0px;
+  background: none;
+  margin-right: 0px;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus  {
@@ -33,11 +60,4 @@ ul.navbar-nav {
 .navbar-inverse .navbar-nav li a  {
   background-color: transparent;
   line-height: 70px;
-}
-
-/* WELCOME SCREEN STYLESHEET */
-div#welcome-screen-container {
-  background: image-url('servant.jpg');
-  background-repeat: no-repeat;
-  background-position: right 100px;
 }

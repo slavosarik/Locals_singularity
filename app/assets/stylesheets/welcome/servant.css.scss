@@ -1,0 +1,47 @@
+@media (min-height: 501px) AND (max-height: 600px) AND (min-width: 700px) {
+  div#welcome-screen-container {
+    background: image-url('servant_500.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px;
+  }
+}
+
+@media (min-height: 601px) AND (max-height: 700px) AND (min-width: 700px) {
+  div#welcome-screen-container {
+    background: image-url('servant_600.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px;
+  }
+}
+
+@media (min-height: 701px) AND (max-height: 800px) AND (min-width: 700px) {
+  div#welcome-screen-container {
+    background: image-url('servant_700.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px;
+  }
+}
+
+@media (min-height: 801px) AND (max-height: 900px) AND (min-width: 700px) {
+  div#welcome-screen-container {
+    background: image-url('servant_800.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px;
+  }
+}
+
+@media (min-height: 901px) AND (max-height: 1000px) AND (min-width: 700px) {
+  div#welcome-screen-container {
+    background: image-url('servant_900.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px;
+  }
+}
+
+@media (min-height: 1001px) AND (max-height: 1100px) AND (min-width: 700px) {
+  div#welcome-screen-container {
+    background: image-url('servant_1000.jpg');
+    background-repeat: no-repeat;
+    background-position: right 100px;
+  }
+}
