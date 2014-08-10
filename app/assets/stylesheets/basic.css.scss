@@ -16,6 +16,7 @@ div.content-container {
   padding-top: 100px;
   /* Height is set by JQuery */
   overflow: hidden;
+  position: relative;
 }
 
 div.navbar {
@@ -46,13 +47,28 @@ ul.navbar-nav li {
   background-position: right 25px;
 }
 
+@media (max-width: 767px) {
+  ul.navbar-nav li {
+    background: none;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a  {
+  color: #ffffff;
+}
+
 ul.navbar-nav li:last-child {
   padding-right: 0px;
   background: none;
   margin-right: 0px;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus  {
+.navbar-inverse .navbar-nav li a:hover, .navbar-inverse .navbar-nav .active a:hover {
+  background-color: #000000;
+  transition: background-color 2s;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus  {
   background-color: transparent;
 }
 
@@ -60,4 +76,47 @@ ul.navbar-nav li:last-child {
 .navbar-inverse .navbar-nav li a  {
   background-color: transparent;
   line-height: 70px;
+}
+
+div.scroll-button-container {
+  width: 217px;
+  background: image-url('arrow_down.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 110px;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+div.scroll-button-container-black {
+  width: 217px;
+  background: image-url('arrow_down_black.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 110px;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+}
+
+a.scroll-button {
+  width: 100%;
+  height: 55px;
+  display: block;
+  background: image-url('button_blue_background.jpg');
+  background-repeat: repeat-x;
+  border-radius: 3px;
+  color: #ffffff;
+  line-height: 55px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  background-position: center center;
 }

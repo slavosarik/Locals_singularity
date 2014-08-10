@@ -18,6 +18,19 @@ img#slogan-container-background {
   z-index: 1;
 }
 
+div#welcome-screen-container {
+  position:relative;
+}
+
+div#welcome-screen-container-background {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 h1#slogan {
   padding-top: 350px;
   font-size: 50px;
@@ -38,36 +51,7 @@ span#booking {
   font-family: 'Open sans', sans-serif;
   text-align: center;
   display: block;
-  color: #101010;
+  color: rgb(230,230,230);
   position: relative;
   z-index: 2;
-}
-
-div.scroll-button-container {
-  width: 217px;
-  background: image-url('arrow_down.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 110px;
-  position: absolute;
-  z-index: 2;
-  bottom: 50px;
-  left:0;
-  right:0;
-  margin: 0 auto;
-}
-
-a#how-we-help-you {
-  width: 100%;
-  height: 55px;
-  display: block;
-  background: image-url('button_blue_background.jpg');
-  background-repeat: repeat-x;
-  border-radius: 3px;
-  color: #ffffff;
-  line-height: 55px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: lighter;
-  background-position: center center;
 }
