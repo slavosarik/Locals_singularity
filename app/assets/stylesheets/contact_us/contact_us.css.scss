@@ -1,0 +1,79 @@
+div#contact-us {
+  background-color: #ebebeb;
+}
+
+div.contact-us-label {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 13px;
+}
+
+div.contact-us-small-label {
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 13px;
+}
+
+div.contact-us-contact-address {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 13px;
+}
+
+div.contact-us-contact-address-label {
+  height: 30px;
+  text-align: center;
+  line-height: 14px;
+  color: #000;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+div.contact-us-form {
+  width: 480px;
+  margin: 0 auto;
+  padding: 10px 0px 30px 0px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #E5E5E5;
+  width: 350px;
+  color: #888888;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+input#submit {
+  width: 110px;
+  height: 40px;
+  background: image-url('button_blue_background.jpg');
+  background-repeat: repeat-x;
+  border-radius: 3px;
+  color: #FFF;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
