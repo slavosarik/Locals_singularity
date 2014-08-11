@@ -42,7 +42,7 @@ ul.navbar-nav li {
   padding-right: 50px;
   margin-right: 25px;
   font-size: 16px;
-  background: image-url('arrow_right.png');
+  /*background: image-url('arrow_right.png');*/
   background-repeat: no-repeat;
   background-position: right 25px;
 }
@@ -80,7 +80,7 @@ ul.navbar-nav li:last-child {
 
 div.scroll-button-container {
   width: 217px;
-  background: image-url('arrow_down.png');
+  /*background: image-url('arrow_down.png');*/
   background-repeat: no-repeat;
   background-position: center bottom;
   height: 110px;
@@ -94,7 +94,7 @@ div.scroll-button-container {
 
 div.scroll-button-container-black {
   width: 217px;
-  background: image-url('arrow_down_black.png');
+  /*background: image-url('arrow_down_black.png');*/
   background-repeat: no-repeat;
   background-position: center bottom;
   height: 110px;
@@ -110,7 +110,7 @@ a.scroll-button {
   width: 100%;
   height: 55px;
   display: block;
-  background: image-url('button_blue_background.jpg');
+ /* background: image-url('button_blue_background.jpg');*/
   background-repeat: repeat-x;
   border-radius: 3px;
   color: #ffffff;
