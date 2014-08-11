@@ -10,14 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ *= require bootstrap.min.css
+ *= require commons/common.css.scss
  *= require_self
+ *= require welcome/servant.css.scss
+ *= require welcome/welcome.css.scss
+ *= require welcome/slogan_media_query.css.scss
+ *= require contact_us/contact_us.css.scss
+ *= require how_we_help_you/how_we_help_you.css.scss
+ *= require our_service/our_service.css.scss
  */
-
-@import "basic.css.scss";
-@import "welcome/servant.css.scss";
-@import "welcome/welcome.css.scss";
-@import "welcome/slogan_media_query.css.scss";
-@import "contact_us/contact_us.css.scss";
-@import "how_we_help_you/how_we_help_you.css.scss";
-@import "our_service/our_service.css.scss";
