@@ -4,6 +4,10 @@ body {
   color: #ffffff;
 }
 
+.floating_cleaner {
+  clear: both;
+}
+
 a:hover, a:visited, a:active {
   text-decoration: none;
 }
@@ -17,6 +21,15 @@ div.content-container {
   /* Height is set by JQuery */
   overflow: hidden;
   position: relative;
+}
+
+h1.content-headline {
+  color: #242424;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-shadow: 1px 1px 0px rgba(255,255,255,1);
 }
 
 div.navbar {

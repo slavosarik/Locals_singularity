@@ -1,11 +1,17 @@
 //= require jquery
 //= require bootstrap.min
 
-$(document).ready(function(){
+function adapt_screen_dependent_elements() {
     $('.screen-height-element').css('height', $(window).height());
+    $('.min-screen-height-element').css('min-height', $(window).height());
+}
+
+$(window).resize(function() {
+    adapt_screen_dependent_elements();
 });
+
 $(document).ready(function(){
-    $('.screen-height-without-navbar-element').css('height', $(window).height()-100);
+    adapt_screen_dependent_elements();
 });
 
 $(document).ready(function(){
