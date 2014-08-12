@@ -5,19 +5,19 @@ div#our-service {
 
 div#our-service-container {
   width: 981px;
-  margin: auto auto;
-  padding: 125px 0px 210px 0px;
+  margin: 0 auto;
+  padding: 50px 0px 210px 0px;
 }
 
 div.our-service-list {
-  //width: 429px;
-  //margin-right: 60px;
-  width: 445px;
-  margin-right: 90px;
+  width: 429px;
+  margin-right: 60px;
+  /*width: 445px;
+  margin-right: 90px;*/
   float: left;
 }
 
-/*.divider-vertical {
+.divider-vertical {
   border-right: 1px solid #ffffff;
   border-left: 1px solid #f2f2f2;
 
@@ -25,7 +25,7 @@ div.our-service-list {
   height: 300px;
   float: left;
   margin-right: 60px;
-}*/
+}
 
 div#our-service-container div.our-service-list:nth-child(3) {
   margin-right: 0px;
@@ -42,6 +42,10 @@ div#our-service-container div.our-service-list:nth-child(3) {
     margin: 0 auto;
     float: none;
     margin-top: 50px;
+  }
+
+  .divider-vertical{
+    display: none;
   }
 
 }
