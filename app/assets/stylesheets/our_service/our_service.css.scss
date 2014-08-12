@@ -10,7 +10,7 @@ div.service-container {
 
 div.service-container-row{
   width: 981px;
-  margin: 30 auto;
+  margin: 0 auto;
   padding: 50px 0px 50px 0px;
 }
 
@@ -19,8 +19,8 @@ div.service-item img {
 }
 
 div.service-item {
-  width: 220px;
-  margin-right: 90px;
+  width: 267px;
+  margin-right: 60px;
   float: left;
 }
 
@@ -42,8 +42,7 @@ div.service-item-desc {
   width: 100%;
   color: #6b6b6b;
   clear: both;
-  text-align:justify;
-  text-justify:inter-word;
+  text-align: justify;
 }
 
 div.service-container div.service-container-row:nth-child(3) {
@@ -63,3 +62,4 @@ div.service-container div.service-container-row:nth-child(3) {
     margin-top: 50px;
   }
 }
+
