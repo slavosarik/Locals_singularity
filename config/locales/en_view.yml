@@ -21,6 +21,8 @@
 
 en:
 
+  #priklad  <%=t :keyword %>
+
   #header file
   header_title_singularity: "Singularity lifestyle management"
   header_toogle_nav: "Toggle navigation"
@@ -61,5 +63,13 @@ en:
 
 
   #contact us file
-
+  contact_headline: "Contact us"
+  contact_us_label_contact: "Contact"
+  contact_us_label_email: "info@singularitylifsitle.sk"
+  contact_us_label_phone: "+421 900 000 000"
+  contact_us_label_adress: "Address"
+  contact_us_label_adress_name: "Singularity"
+  contact_us_label_adress_street: "Palo Alto, CA 94304"
+  contact_us_label_adress_country: "United States"
+  #NEDOROBENE PRE ARGUMENTY JAVASCRIPTOVYCH FUNKCII VO FORMULARI
 

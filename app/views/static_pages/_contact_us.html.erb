@@ -1,24 +1,27 @@
 <div class="container content-container screen-height-element" id="contact-us">
-  <h1 class="content-headline">Contact us</h1>
+  <h1 class="content-headline"><%= t :contact_headline %></h1>
 
   <div id="contact-us-container">
     <div class="contact-us-container-label">
       <div class="contact-us-label">
-        Contact
+        <%= t :contact_us_label_contact %>
       </div>
       <div class="contact-us-contact-address-label">
-        <p>info@singularitylifsitle.sk</p>
-        <p>+421 900 000 000 </p>
+        <p><%= t :contact_us_label_email %></p>
+
+        <p><%= t :contact_us_label_phone %></p>
       </div>
     </div>
     <div class="contact-us-container-label">
       <div class="contact-us-label">
-        Address
+        <%= t :contact_us_label_adress %>
       </div>
       <div class="contact-us-contact-address-label">
-        <p>Singularity</p>
-        <p>Palo Alto, CA 94304</p>
-        <p>United States</p>
+        <p><%= t :contact_us_label_adress_name %></p>
+
+        <p><%= t :contact_us_label_adress_street %></p>
+
+        <p><%= t :contact_us_label_adress_country %></p>
       </div>
     </div>
   </div>
@@ -32,7 +35,7 @@
       </div>
 
       <div class="contact-us-from-input">
-        <textarea name="text" placeholder="Your Message" /></textarea>
+        <textarea name="text" placeholder="Your Message"/></textarea>
         <input id="submit" name="submit" type="submit" value="Send message">
       </div>
     </form>
