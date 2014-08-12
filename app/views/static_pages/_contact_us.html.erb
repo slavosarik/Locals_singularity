@@ -1,32 +1,41 @@
 <div class="container content-container screen-height-element" id="contact-us">
   <h1 class="content-headline">Contact us</h1>
-  <div class="contact-us-label">
-    Do you like Concierge?
+
+  <div id="contact-us-container">
+    <div class="contact-us-container-label">
+      <div class="contact-us-label">
+        Contact
+      </div>
+      <div class="contact-us-contact-address-label">
+        <p>info@singularitylifsitle.sk</p>
+        <p>+421 900 000 000 </p>
+      </div>
+    </div>
+    <div class="contact-us-container-label">
+      <div class="contact-us-label">
+        Address
+      </div>
+      <div class="contact-us-contact-address-label">
+        <p>Singularity</p>
+        <p>Palo Alto, CA 94304</p>
+        <p>United States</p>
+      </div>
+    </div>
   </div>
 
-  <div class="contact-us-small-label">
-    Enter your e-mail and we will inform you about our service
-  </div>
-
-  <div class="contact-us-form">
+  <div id="contact-us-from-container">
     <form>
-      <input name="email" type="email" placeholder="Your email">
+      <div class="contact-us-form-input">
+        <input name="name" type="text" placeholder="Full Name">
+        <input type="email" name="email" placeholder="Email Address" size="30" onblur="if(this.value==''){this.value='exemplo@exemplo.com';}" onfocus="if(this.value=='exemplo@exemplo.com'){this.value='';}">
+        <input name="telephone" type="text" placeholder="Telephone (Not required)">
+      </div>
 
-      <input id="submit" name="submit" type="submit" value="Stay notified">
-
+      <div class="contact-us-from-input">
+        <textarea name="text" placeholder="Your Message" /></textarea>
+        <input id="submit" name="submit" type="submit" value="Send message">
+      </div>
     </form>
-  </div>
-
-
-  <div class="contact-us-contact-address">
-    Contact
-  </div>
-  <div class="contact-us-contact-address-label">
-    <p>email: </p>
-    <p>telephone: </p>
-  </div>
-  <div class="contact-us-contact-address">
-    Address
   </div>
 
 </div>
