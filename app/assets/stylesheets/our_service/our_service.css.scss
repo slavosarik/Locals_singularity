@@ -6,13 +6,13 @@ div#our-service {
 div.service-container {
   width: 981px;
   margin: 0 auto;
-  padding: 0px 0px 210px 0px;
+  padding: 50px 0px 210px 0px;
 }
 
 div.service-container-row{
   width: 981px;
   margin: 0 auto;
-  padding: 50px 0px 50px 0px;
+  padding: 0px 0px 60px 0px;
 }
 
 div.service-item img {
@@ -52,7 +52,8 @@ div.service-container div.service-container-row:nth-child(3) {
 
 @media (max-width: 899px) {
   div.service-container {
-    padding-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 60px;
     width: 267px;
   }
 
@@ -60,7 +61,11 @@ div.service-container div.service-container-row:nth-child(3) {
     width: 267px;
     margin: 0 auto;
     float: none;
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+
+  div.service-item{
+    margin-bottom: 30px;
   }
 }
 
