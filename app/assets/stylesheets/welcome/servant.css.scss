@@ -7,7 +7,7 @@ div#welcome-screen-container-background {
   height: 100%;
 }
 
-@media (min-height: 501px) AND (max-height: 600px) AND (min-width: 700px) {
+@media (min-height: 501px) AND (max-height: 600px) AND (min-width: 768px) {
   div#welcome-screen-container-background {
     background: image-url('servant_500.png');
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ div#welcome-screen-container-background {
   }
 }
 
-@media (min-height: 601px) AND (max-height: 700px) AND (min-width: 700px) {
+@media (min-height: 601px) AND (max-height: 700px) AND (min-width: 768px) {
   div#welcome-screen-container-background {
     background: image-url('servant_600.png');
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ div#welcome-screen-container-background {
   }
 }
 
-@media (min-height: 701px) AND (max-height: 800px) AND (min-width: 700px) {
+@media (min-height: 701px) AND (max-height: 800px) AND (min-width: 768px) {
   div#welcome-screen-container-background {
     background: image-url('servant_700.png');
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ div#welcome-screen-container-background {
   }
 }
 
-@media (min-height: 801px) AND (max-height: 900px) AND (min-width: 700px) {
+@media (min-height: 801px) AND (max-height: 900px) AND (min-width: 768px) {
   div#welcome-screen-container-background {
     background: image-url('servant_800.png');
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ div#welcome-screen-container-background {
   }
 }
 
-@media (min-height: 901px) AND (max-height: 1000px) AND (min-width: 700px) {
+@media (min-height: 901px) AND (max-height: 1000px) AND (min-width: 768px) {
   div#welcome-screen-container-background {
     background: image-url('servant_900.png');
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ div#welcome-screen-container-background {
   }
 }
 
-@media (min-height: 1001px) AND (max-height: 1100px) AND (min-width: 700px) {
+@media (min-height: 1001px) AND (max-height: 1100px) AND (min-width: 768px) {
   div#welcome-screen-container-background {
     background: image-url('servant_1000.png');
     background-repeat: no-repeat;

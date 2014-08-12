@@ -60,12 +60,6 @@ ul.navbar-nav li {
   background-position: right 25px;
 }
 
-@media (max-width: 767px) {
-  ul.navbar-nav li {
-    background: none;
-  }
-}
-
 .navbar-inverse .navbar-nav > li > a  {
   color: #ffffff;
 }
@@ -91,36 +85,34 @@ ul.navbar-nav li:last-child {
   line-height: 70px;
 }
 
-div.scroll-button-container {
-  width: 217px;
-  background: image-url('arrow_down.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 110px;
-  position: absolute;
-  z-index: 2;
-  bottom: 50px;
-  left:0;
-  right:0;
-  margin: 0 auto;
-}
+@media (max-width: 767px) {
+  div.navbar {
+    height: 80px;
+  }
 
-div.scroll-button-container-black {
-  width: 217px;
-  background: image-url('arrow_down_black.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 110px;
-  position: absolute;
-  z-index: 2;
-  bottom: 50px;
-  left:0;
-  right:0;
-  margin: 0 auto;
+  .navbar-inverse .navbar-nav li a  {
+    line-height: 20px;
+  }
+
+  ul.navbar-nav li {
+    background: none;
+  }
+
+  ul.navbar-nav li {
+    padding-right: 0px;
+    margin-right: 20px;
+    font-size: 14px;
+    background: none;
+  }
+
+  img#header-logo {
+    height: 50px;
+    width: 143px;
+  }
 }
 
 a.scroll-button {
-  width: 100%;
+  width: 217px;
   height: 55px;
   display: block;
   background: image-url('button_blue_background.jpg');
@@ -132,4 +124,10 @@ a.scroll-button {
   font-size: 24px;
   font-weight: lighter;
   background-position: center center;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  left:0;
+  right:0;
+  margin: 0 auto;
 }
