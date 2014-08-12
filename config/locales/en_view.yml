@@ -20,4 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  #header file
+  header_title_singularity: "Singularity lifestyle management"
+  header_toogle_nav: "Toggle navigation"
+  header_how_we_help_you: "How we help you"
+  header_our_service: "Our service"
+  header_contact_us: "Contact us"
+
+
+
+
+
+  service_name1: "LoloService name1"
