@@ -37,6 +37,14 @@ en:
   welcome_scroll_button: "How we help you"
 
   #how we help you file
+  how_we_help_headline: "How we help you"
+  how_we_help_image_label1: "Give us your request"
+  how_we_help_image_description1: "Call us using our mobile app or directly by phone number"
+  how_we_help_image_label2: "Give us your request"
+  how_we_help_image_description2: "Call us using our mobile app or directly by phone number"
+  how_we_help_image_label3: "Give us your request"
+  how_we_help_image_description3: "Call us using our mobile app or directly by phone number"
+  how_we_help_scroll_button: "Our service"
 
   #our services
   service_headline: "Our service"
