@@ -9,24 +9,71 @@ div#our-service-container {
   padding: 50px 0px 210px 0px;
 }
 
+
+div#our-service-container-row{
+  width: 981px;
+  margin: 0 auto;
+  padding: 50px 0px 210px 0px;
+}
+
+div.service-item img {
+  margin-bottom: 13px;
+}
+
+div.service-item {
+  width: 267px;
+  margin-right: 90px;
+  float: left;
+}
+
+//-- paing40px -->
+
 div.our-service-list {
   width: 429px;
   margin-right: 60px;
-  /*width: 445px;
-  margin-right: 90px;*/
   float: left;
 }
 
-.divider-vertical {
-  border-right: 1px solid #ffffff;
-  border-left: 1px solid #f2f2f2;
-
-  //TREBA NASTAVIT NORMALNU VYSKU PODLA UL LISTOV
-  height: 300px;
+/*
+div.our-service-list-label {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+*/
+div.service-item {
+  width: 267px;
+  margin-right: 90px;
   float: left;
-  margin-right: 60px;
 }
 
+
+div.service-item-label{
+
+  height: 30px;
+  text-align: right;
+  line-height: 30px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration: none;
+  margin-bottom: 13px;
+
+}
+
+
+
+
+
+
+/*
 div#our-service-container div.our-service-list:nth-child(3) {
   margin-right: 0px;
 }
@@ -49,21 +96,5 @@ div#our-service-container div.our-service-list:nth-child(3) {
   }
 
 }
+*/
 
-div.our-service-list-label {
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  color: #000000;
-  font-size: 30px;
-  font-weight: lighter;
-  font-style: normal;
-  text-decoration: none;
-  margin-bottom: 30px;
-}
-
-.service-list {
-  width: 100%;
-  color: #6b6b6b;
-  clear: both;
-}
