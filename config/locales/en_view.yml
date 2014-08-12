@@ -28,7 +28,11 @@ en:
   header_our_service: "Our service"
   header_contact_us: "Contact us"
 
-
+  #welcome screen file
+  welcome_slogan1: "Focus on things that matter to you."
+  welcome_slogan2: "We will manage the rest"
+  welcome_booking: "Booking on: 00-421-900-000-001"
+  welcome_scroll_button: "How we help you"
 
 
 
