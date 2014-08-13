@@ -1,4 +1,4 @@
-<div class="container content-container screen-height-element" id="contact-us">
+<div class="container content-container min-screen-height-element" id="contact-us">
   <h1 class="content-headline"><%= t :contact_headline %></h1>
 
   <div id="contact-us-container">
@@ -24,21 +24,19 @@
         <p><%= t :contact_us_label_adress_country %></p>
       </div>
     </div>
-  </div>
 
-  <div id="contact-us-from-container">
     <form>
-      <div class="contact-us-form-input">
+      <div class="contact-us-container-label">
         <input name="name" type="text" placeholder="Full Name">
         <input type="email" name="email" value="Email Address" size="255" onfocus="if(this.value=='Email Address'){this.value='';}">
         <input name="telephone" type="text" placeholder="Telephone (Not required)">
       </div>
 
-      <div class="contact-us-from-input">
+      <div class="contact-us-container-label">
         <textarea name="text" placeholder="Your Message"/></textarea>
         <input id="submit" name="submit" type="submit" value="Send message">
       </div>
+      <div class="floating_cleaner"></div>
     </form>
-  </div>
-
+ </div>
 </div>
