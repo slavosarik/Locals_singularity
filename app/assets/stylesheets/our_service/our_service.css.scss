@@ -5,14 +5,14 @@ div#our-service {
 
 div.service-container {
   width: 981px;
-  margin: 0 auto;
+  margin: 0 auto -90px auto;
   padding: 50px 0px 210px 0px;
 }
 
 div.service-container-row{
   width: 981px;
   margin: 0 auto;
-  padding: 0px 0px 60px 0px;
+  padding: 0px 0px 90px 0px;
 }
 
 div.service-item img {
@@ -21,7 +21,7 @@ div.service-item img {
 
 div.service-item {
   width: 267px;
-  margin-right: 60px;
+  margin-right: 90px;
   float: left;
 }
 
@@ -46,7 +46,7 @@ div.service-item-desc {
   text-align: justify;
 }
 
-div.service-container div.service-container-row:nth-child(3) {
+div.service-container-row div.service-item:nth-child(3) {
   margin-right: 0px;
 }
 
