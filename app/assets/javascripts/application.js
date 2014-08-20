@@ -3,7 +3,6 @@
 
 function adapt_screen_dependent_elements() {
     $('.screen-height-element').css('height', $(window).height());
-    $('.min-screen-height-element').css('min-height', $(window).height());
 }
 
 $(window).resize(function() {
