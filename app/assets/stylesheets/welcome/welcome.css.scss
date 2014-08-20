@@ -1,48 +1,36 @@
 /* WELCOME SCREEN STYLESHEET */
-div#slogan-container {
-  margin: -100px 0px 0px 200px;
-  margin-top: -100px;
-  overflow: visible;
-  padding: 0;
-  width: 1045px;
-  height: 1045px;
-  position: relative;
-  display: block;
+#welcome-screen-container {
+  background: image-url('bg-1000.jpg');
+  background-position: center 100px;
+  background-repeat: no-repeat;
 }
 
-img#slogan-container-background {
-  position: absolute;
-  left: 522px;
-  top: 522px;
-  margin: -50% 0 0 -50%;
-  z-index: 1;
+@media (max-height: 900px) {
+  #welcome-screen-container {
+    background: image-url('bg-900.jpg');
+    background-position: center 100px;
+    background-repeat: no-repeat;
+  }
 }
 
-div#welcome-screen-container {
-  position:relative;
+@media (max-height: 800px) {
+  #welcome-screen-container {
+    background: image-url('bg-800.jpg');
+    background-position: center 100px;
+    background-repeat: no-repeat;
+  }
 }
 
-h1#slogan {
-  padding-top: 350px;
-  font-size: 50px;
-  line-height: 80px;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  display: block;
-  color: #ffffff;
-  text-shadow: 1px 1px 0px rgba(0,0,0,1);
-  position: relative;
-  z-index: 2;
+@media (max-height: 700px) {
+  #welcome-screen-container {
+    background: image-url('bg-700.jpg');
+    background-position: center 100px;
+    background-repeat: no-repeat;
+  }
 }
 
-span#booking {
-  padding-top: 50px;
-  font-size: 30px;
-  line-height: 30px;
-  font-family: 'Open sans', sans-serif;
-  text-align: center;
-  display: block;
-  color: rgb(230,230,230);
-  position: relative;
-  z-index: 2;
+@media (max-width: 768px) {
+  #welcome-screen-container {
+    background: none;
+  }
 }

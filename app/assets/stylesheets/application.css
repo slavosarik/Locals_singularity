@@ -13,9 +13,7 @@
  *= require bootstrap.min.css
  *= require commons/common.css.scss
  *= require_self
- *= require welcome/servant.css.scss
  *= require welcome/welcome.css.scss
- *= require welcome/slogan_media_query.css.scss
  *= require contact_us/contact_us.css.scss
  *= require how_we_help_you/how_we_help_you.css.scss
  *= require our_service/our_service.css.scss
