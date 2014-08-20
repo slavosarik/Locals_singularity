@@ -4,7 +4,7 @@ div#contact-us {
 
 div.contact-us-label {
   height: 30px;
-  text-align: center;
+  text-align: left;
   line-height: 30px;
   color: #000000;
   font-size: 30px;
@@ -12,68 +12,95 @@ div.contact-us-label {
   font-style: normal;
   text-decoration: none;
   margin-bottom: 13px;
-}
-
-div.contact-us-small-label {
-  height: 24px;
-  text-align: center;
-  line-height: 24px;
-  color: #000000;
-  font-size: 24px;
-  font-weight: lighter;
-  font-style: normal;
-  text-decoration: none;
-  margin-bottom: 13px;
-}
-
-div.contact-us-contact-address {
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  color: #000000;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: normal;
-  text-decoration: none;
-  margin-bottom: 13px;
+  padding: 0px 0px 0px 80px;
 }
 
 div.contact-us-contact-address-label {
   height: 30px;
-  text-align: center;
+  text-align: left;
   line-height: 14px;
   color: #000;
   font-size: 14px;
   font-weight: lighter;
   font-style: normal;
   text-decoration: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  height: 60px;
+  padding: 0px 0px 0px 80px;
 }
 
-div.contact-us-form {
-  width: 480px;
+
+div#contact-us-container {
+  width: 750px;
   margin: 0 auto;
-  padding: 10px 0px 30px 0px;
+  padding: 10px 0px 20px 0px;
+}
+div.contact-us-container-label {
+  width: 375px;
+  margin: 0 auto;
+  display: inline-block;
+  float: left;
 }
 
-input {
+@media (max-width: 899px) {
+
+  div#contact-us-container {
+    padding-top: 0px;
+    width: 267px;
+  }
+
+  div.contact-us-container-label {
+    width: 267px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 50px;
+  }
+
+  input,textarea {
+   max-width: 260px;
+  }
+
+  textarea {
+    max-width: 260px;
+  }
+}
+
+input,textarea {
   padding: 10px;
   border: 1px solid #E5E5E5;
   width: 350px;
-  color: #888888;
+  color: #000000;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  margin-bottom: 5px;
 }
 
 input#submit {
-  width: 110px;
+  width: 120px;
   height: 40px;
   background: image-url('button_blue_background.jpg');
   background-repeat: repeat-x;
   border-radius: 3px;
   color: #FFF;
-  border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
+  float: right;
+}
+
+p.form {
+  height: 14px;
+  text-align: left;
+  line-height: 14px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 375px;
+  height: 135px;
 }

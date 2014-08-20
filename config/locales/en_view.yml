@@ -1,0 +1,80 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+
+  #
+  #priklad
+  #<%=t :keyword %>
+  #keayword: "Preklad"
+  #
+
+
+  #header file
+  header_title_singularity: "Singularity lifestyle management"
+  header_toogle_nav: "Toggle navigation"
+  header_how_we_help_you: "How we help you"
+  header_our_service: "Our service"
+  header_contact_us: "Contact us"
+
+  #welcome screen file
+  welcome_slogan1: "Focus on things that matter to you."
+  welcome_slogan2: "We will manage the rest"
+  welcome_booking: "Booking on: 00-421-900-000-001"
+  welcome_scroll_button: "How we help you"
+
+  #how we help you file
+  how_we_help_headline: "How we help you"
+  how_we_help_image_label1: "Give us your request"
+  how_we_help_image_description1: "Call us using our mobile app or directly by phone number"
+  how_we_help_image_label2: "Give us your request"
+  how_we_help_image_description2: "Call us using our mobile app or directly by phone number"
+  how_we_help_image_label3: "Give us your request"
+  how_we_help_image_description3: "Call us using our mobile app or directly by phone number"
+  how_we_help_scroll_button: "Our service"
+
+  #our services
+  service_headline: "Our service"
+  service_name1: "Service name1"
+  service_desc1: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_name2: "Service name2"
+  service_desc2: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_name3: "Service name3"
+  service_desc3: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_name4: "Service name4"
+  service_desc4: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_name5: "Service name5"
+  service_desc5: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_name6: "Service name6"
+  service_desc6: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_scroll_button: "Contact us"
+
+  #contact us file
+  contact_headline: "Contact us"
+  contact_us_label_contact: "Contact"
+  contact_us_label_email: "info@singularitylifsitle.sk"
+  contact_us_label_phone: "+421 900 000 000"
+  contact_us_label_adress: "Address"
+  contact_us_label_adress_name: "Singularity"
+  contact_us_label_adress_street: "Namestie SNP 9, Bratislava"
+  contact_us_label_adress_country: "Slovensko"
+  #NEDOROBENE PRE ARGUMENTY JAVASCRIPTOVYCH FUNKCII VO FORMULARI
+

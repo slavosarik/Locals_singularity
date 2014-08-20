@@ -1,17 +1,19 @@
 <div class="container content-container screen-height-element" id="welcome-screen-container">
   <div id="welcome-screen-container-background"></div>
   <div id="slogan-container">
-    <img src="<%= image_path 'bg_glow.jpg' %>" id="slogan-container-background" alt="" />
+    <img src="<%= image_path 'bg_glow.jpg' %>" id="slogan-container-background" alt=""/>
+
     <h1 id="slogan">
-      Focus on things that matter to you.<br />
-      We will manage the rest
+      <%= t :welcome_slogan1 %>
+      <br/>
+      <%= t :welcome_slogan2 %>
     </h1>
 
       <span id="booking">
-        Booking on: 00-421-900-000-001
+        <%= t :welcome_booking %>
       </span>
   </div>
   <a href="#how-we-help-you" class="scroll-button">
-    How we help you
+    <%= t :welcome_scroll_button %>
   </a>
 </div>
