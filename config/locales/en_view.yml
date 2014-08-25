@@ -54,10 +54,10 @@ en:
   #our services
   service_headline: "Our service"
   service_name1: "Foreign police"
-  service_desc1_html: "# All documents needed for stay (pobyt) in Slovakia ( toto znie kostrbate a vynechal by som </br>)
-                  # Official documents related to your work and stay in Slovakia </br>
-                  # Visa for EU or non-EU applicants, work permit</br>
-                  # Interpreting services at the office of the foreign police<br>"
+  service_desc1_html: "#All documents needed for stay in Slovakia</br>
+                  #Official documents related to your work and stay in Slovakia</br>
+                  #Visa for EU or non-EU applicants, work permit</br>
+                  #Interpreting services at the office of the foreign police<br>"
   service_name2: "Service name2"
   service_desc2: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
   service_name3: "Service name3"
