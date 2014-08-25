@@ -68,16 +68,25 @@ en:
                        #Primary, secondary, tertiary as well as public health services."
   service_name4: "Utilities"
   service_desc4_html: "#We take care of all your bills and payments<br>
-                       #Water, Electricity,Internet, Phone, etc.
-"
+                       #Water, Electricity,Internet, Phone, etc."
   service_name5: "Relocation"
   service_desc5_html: "#If your stay is longer than few weeks or months, let us help you with relocation to your new home.<br>
                        #If you need to move, let us handle it.<br>
                        #We locate the perfect accommodation for you according to your preferences and handle all the paperwork."
   service_name6: "Translation service"
   service_desc6_html: "#Translation of all necessary documents, personal or business related.<br>
-                       #Interpreting services from and into several foreign languages.
-"
+                       #Interpreting services from and into several foreign languages."
+
+  service_name7: "Day-to-Day requests"
+  service_desc7_html: "#Housekeeping, child care, dry cleaning, cooking (daily food delivery, groceries delivery), transportation services or any special request."
+  service_name8: "Car Rental / Car Service / Assisted Car purchase"
+  service_desc8_html: "#Short-term and Long-term car rental with benefits<br>
+                       #Assisted Car Purchase - we will assist you with purchasing and selling your car.<br>
+                       #Car Maintenance - We take care of your cars maintenance in safe, working order."
+  service_name9: "Emergency requests"
+  service_desc9_html: "#Looking for information, or are you in an emergency? Call us
+                        Any emergency request, if something happened or a person doesn’t know what to do or where to go."
+
   service_scroll_button: "Contact us"
 
   #contact us file
