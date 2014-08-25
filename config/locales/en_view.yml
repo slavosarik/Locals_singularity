@@ -63,14 +63,21 @@ en:
                        #We take care of all documents and permits for You
                        Relocation service, including English speaking support
                        Kindergarten services during your stay with pick-up and drop off"
-  service_name3: "Service name3"
-  service_desc3_html: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-  service_name4: "Service name4"
-  service_desc4_html: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-  service_name5: "Service name5"
-  service_desc5_html: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
-  service_name6: "Service name6"
-  service_desc6_html: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+  service_name3: "Doctors"
+  service_desc3_html: "#From ordinary health checkups to surgeries, executed by english speaking doctors.<br>
+                       #Primary, secondary, tertiary as well as public health services."
+  service_name4: "Utilities"
+  service_desc4_html: "#We take care of all your bills and payments<br>
+                       #Water, Electricity,Internet, Phone, etc.
+"
+  service_name5: "Relocation"
+  service_desc5_html: "#If your stay is longer than few weeks or months, let us help you with relocation to your new home.<br>
+                       #If you need to move, let us handle it.<br>
+                       #We locate the perfect accommodation for you according to your preferences and handle all the paperwork."
+  service_name6: ".Translation service / Interpreting services"
+  service_desc6_html: "#Translation of all necessary documents, personal or business related.<br>
+                       #Interpreting services from and into several foreign languages.
+"
   service_scroll_button: "Contact us"
 
   #contact us file
