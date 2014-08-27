@@ -88,7 +88,8 @@ ul.navbar-nav li:last-child {
 
 
 img#header-logo {
-  margin-right: 15px;
+  margin-left: 50px;
+  margin-top: -5px;
 }
 
 @media (max-width: 767px) {
@@ -113,7 +114,8 @@ img#header-logo {
 
   img#header-logo {
     height: 50px;
-    width: 143px;
+    width: 90px;
+    margin-top: 0px;
   }
 
 }
