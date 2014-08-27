@@ -85,6 +85,12 @@ ul.navbar-nav li:last-child {
   line-height: 70px;
 }
 
+
+
+img#header-logo {
+  margin-right: 15px;
+}
+
 @media (max-width: 767px) {
   div.navbar {
     height: 80px;
@@ -109,6 +115,7 @@ ul.navbar-nav li:last-child {
     height: 50px;
     width: 143px;
   }
+
 }
 
 a.scroll-button {

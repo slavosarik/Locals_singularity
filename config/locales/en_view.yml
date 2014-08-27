@@ -31,7 +31,7 @@ en:
   #header file
   header_title_singularity: "Locals"
   header_toogle_nav: "Toggle navigation"
-  header_how_we_help_you: "How we help you"
+  header_how_we_help_you: "How it works"
   header_our_service: "Our service"
   header_contact_us: "Contact us"
 
@@ -39,60 +39,63 @@ en:
   welcome_slogan1: "Focus on things that matter to you."
   welcome_slogan2: "We will manage the rest"
   welcome_booking: "Booking on: 00-421-900-000-001"
-  welcome_scroll_button: "How we help you"
+  welcome_scroll_button: "Learn more"
 
   #how we help you file
   how_we_help_headline: "How we help you"
-  how_we_help_image_label1: "Give us your request"
-  how_we_help_image_description1: "Call us using our mobile app or directly by phone number"
-  how_we_help_image_label2: "Give us your request"
-  how_we_help_image_description2: "Call us using our mobile app or directly by phone number"
-  how_we_help_image_label3: "Give us your request"
-  how_we_help_image_description3: "Call us using our mobile app or directly by phone number"
+  how_we_help_image_label1: "Your Request or Question"
+  how_we_help_image_description1: "Call us or Text us, form Your request or ask us your question. "
+  how_we_help_image_label2: "Confirm Your Request, Get an Answer"
+  how_we_help_image_description2: "When You feel the question or request is too complex, don’t hesitate to call us."
+  how_we_help_image_label3: "Locals deliver!"
+  how_we_help_image_description3: "Enjoy Your time, We will handle the request and update You on the progress."
   how_we_help_scroll_button: "Our service"
 
   #our services
   service_headline: "Our service"
   service_name1: "Foreign police"
-  service_desc1_html: "#All documents needed for stay in Slovakia</br>
-                  #Official documents related to your work and stay in Slovakia</br>
-                  #Visa for EU or non-EU applicants, work permit</br>
-                  #Interpreting services at the office of the foreign police<br>"
+  service_desc1_html: "<strong>All</strong> documents needed for stay in Slovakia.<br>
+                       <strong>Official</strong> documents related to your work and stay in Slovakia.<br>
+                       <strong>Visa</strong> for non-EU applicants, Work permit, Residence permit.<br>
+                       <strong>Interpreting</strong> services at the office of the Foreign Police."
+
   service_name2: "Accommodation"
-  service_desc2_html: "#Short-term, long-term or last minute overnight accommodation<br>
-                       #We take care of all documents and permits for You
-                       Relocation service, including English speaking support
-                       Kindergarten services during your stay with pick-up and drop off"
+  service_desc2_html: "<strong>Short-term</strong>, long-term or last minute overnight accommodation.<br>
+                      <strong>We</strong> take care of all documents and permits for You.<br>
+                      <strong>Relocation</strong> service, including English speaking support.<br>
+                      <strong>Kindergarten</strong> services during your stay with pick-up and drop off."
   service_name3: "Doctors"
-  service_desc3_html: "#From ordinary health checkups to surgeries, executed by english speaking doctors.<br>
-                       #Primary, secondary, tertiary as well as public health services."
+  service_desc3_html: "<strong>From</strong> ordinary health checkups to surgeries, executed by qualified doctors.<br>
+                       <strong>Insurance</strong> service and communication."
   service_name4: "Utilities"
-  service_desc4_html: "#We take care of all your bills and payments<br>
-                       #Water, Electricity,Internet, Phone, etc."
+  service_desc4_html: "<strong>We</strong> process all your bills and payments.<br>
+                       <strong>Water</strong>, Electricity, Internet, Phone, etc.<br>
+                       <strong>On-demand</strong> additional services."
   service_name5: "Relocation"
-  service_desc5_html: "#If your stay is longer than few weeks or months, let us help you with relocation to your new home.<br>
-                       #If you need to move, let us handle it.<br>
-                       #We locate the perfect accommodation for you according to your preferences and handle all the paperwork."
+  service_desc5_html: "<strong>If</strong> your stay is longer than few weeks or months, let us help you with relocation to your new home.<br>
+                       <strong>If</strong> you need to move, let us handle it.<br>
+                       <strong>We</strong> locate the perfect accommodation for you according to your preferences and handle all the paperwork."
   service_name6: "Translation service"
-  service_desc6_html: "#Translation of all necessary documents, personal or business related.<br>
-                       #Interpreting services from and into several foreign languages."
+  service_desc6_html: "<strong>Translation</strong> of all necessary documents, personal or business related.<br>
+                       <strong>Interpreting</strong> services from and into several foreign languages.
+"
 
   service_name7: "Day-to-Day requests"
-  service_desc7_html: "#Housekeeping, child care, dry cleaning, cooking (daily food delivery, groceries delivery), transportation services or any special request."
+  service_desc7_html: "<strong>Housekeeping</strong>, child care, dry cleaning, cooking (groceries delivery), transportation services or any special request."
   service_name8: "Car Rental / Car Service / Assisted Car purchase"
-  service_desc8_html: "#Short-term and Long-term car rental with benefits<br>
-                       #Assisted Car Purchase - we will assist you with purchasing and selling your car.<br>
-                       #Car Maintenance - We take care of your cars maintenance in safe, working order."
+  service_desc8_html: "<strong>Short-term</strong> and Long-term car rental with benefits.<br>
+                       <strong>Assisted</strong> Car Purchase - we will assist you with purchasing and selling your car.<br>
+                       <strong>Car</strong> Maintenance - we take care of your cars maintenance and keep you scheduled."
   service_name9: "Emergency requests"
-  service_desc9_html: "#Looking for information, or are you in an emergency? Call us
-                        Any emergency request, if something happened or a person doesn’t know what to do or where to go."
+  service_desc9_html: "<strong>Looking</strong> for information, or are you in an emergency?<br>
+                       <strong>Call us!</strong> Any emergency request, if something happened or a person doesn’t know what to do or where to go."
 
   service_scroll_button: "Contact us"
 
   #contact us file
   contact_headline: "Contact us"
   contact_us_label_contact: "Contact"
-  contact_us_label_email: "info@singularitylifsitle.sk"
+  contact_us_label_email: "info@locals.sk"
   contact_us_label_phone: "+421 900 000 000"
   contact_us_label_adress: "Address"
   contact_us_label_adress_name: "Singularity"
