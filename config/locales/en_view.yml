@@ -65,28 +65,30 @@ en:
                       <strong>Relocation</strong> service, including English speaking support.<br>
                       <strong>Kindergarten</strong> services during your stay with pick-up and drop off."
   service_name3: "Doctors"
-  service_desc3_html: "#From ordinary health checkups to surgeries, executed by english speaking doctors.<br>
-                       #Primary, secondary, tertiary as well as public health services."
+  service_desc3_html: "<strong>From</strong> ordinary health checkups to surgeries, executed by qualified doctors.<br>
+                       <strong>Insurance</strong> service and communication."
   service_name4: "Utilities"
-  service_desc4_html: "#We take care of all your bills and payments<br>
-                       #Water, Electricity,Internet, Phone, etc."
+  service_desc4_html: "<strong>We</strong> process all your bills and payments.<br>
+                       <strong>Water</strong>, Electricity, Internet, Phone, etc.<br>
+                       <strong>On-demand</strong> additional services."
   service_name5: "Relocation"
-  service_desc5_html: "#If your stay is longer than few weeks or months, let us help you with relocation to your new home.<br>
-                       #If you need to move, let us handle it.<br>
-                       #We locate the perfect accommodation for you according to your preferences and handle all the paperwork."
+  service_desc5_html: "<strong>If</strong> your stay is longer than few weeks or months, let us help you with relocation to your new home.<br>
+                       <strong>If</strong> you need to move, let us handle it.<br>
+                       <strong>We</strong> locate the perfect accommodation for you according to your preferences and handle all the paperwork."
   service_name6: "Translation service"
-  service_desc6_html: "#Translation of all necessary documents, personal or business related.<br>
-                       #Interpreting services from and into several foreign languages."
+  service_desc6_html: "<strong>Translation</strong> of all necessary documents, personal or business related.<br>
+                       <strong>Interpreting</strong> services from and into several foreign languages.
+"
 
   service_name7: "Day-to-Day requests"
-  service_desc7_html: "#Housekeeping, child care, dry cleaning, cooking (daily food delivery, groceries delivery), transportation services or any special request."
+  service_desc7_html: "<strong>Housekeeping</strong>, child care, dry cleaning, cooking (groceries delivery), transportation services or any special request."
   service_name8: "Car Rental / Car Service / Assisted Car purchase"
-  service_desc8_html: "#Short-term and Long-term car rental with benefits<br>
-                       #Assisted Car Purchase - we will assist you with purchasing and selling your car.<br>
-                       #Car Maintenance - We take care of your cars maintenance in safe, working order."
+  service_desc8_html: "<strong>Short-term</strong> and Long-term car rental with benefits.<br>
+                       <strong>Assisted</strong> Car Purchase - we will assist you with purchasing and selling your car.<br>
+                       <strong>Car</strong> Maintenance - we take care of your cars maintenance and keep you scheduled."
   service_name9: "Emergency requests"
-  service_desc9_html: "#Looking for information, or are you in an emergency? Call us
-                        Any emergency request, if something happened or a person doesn’t know what to do or where to go."
+  service_desc9_html: "<strong>Looking</strong> for information, or are you in an emergency?<br>
+                       <strong>Call us!</strong> Any emergency request, if something happened or a person doesn’t know what to do or where to go."
 
   service_scroll_button: "Contact us"
 
