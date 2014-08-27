@@ -54,15 +54,16 @@ en:
   #our services
   service_headline: "Our service"
   service_name1: "Foreign police"
-  service_desc1_html: "#All documents needed for stay in Slovakia</br>
-                  #Official documents related to your work and stay in Slovakia</br>
-                  #Visa for EU or non-EU applicants, work permit</br>
-                  #Interpreting services at the office of the foreign police<br>"
+  service_desc1_html: "<strong>All</strong> documents needed for stay in Slovakia.<br>
+                       <strong>Official</strong> documents related to your work and stay in Slovakia.<br>
+                       <strong>Visa</strong> for non-EU applicants, Work permit, Residence permit.<br>
+                       <strong>Interpreting</strong> services at the office of the Foreign Police."
+
   service_name2: "Accommodation"
-  service_desc2_html: "#Short-term, long-term or last minute overnight accommodation<br>
-                       #We take care of all documents and permits for You
-                       Relocation service, including English speaking support
-                       Kindergarten services during your stay with pick-up and drop off"
+  service_desc2_html: "<strong>Short-term</strong>, long-term or last minute overnight accommodation.<br>
+                      <strong>We<strong> take care of all documents and permits for You.<br>
+                      <strong>Relocation</strong> service, including English speaking support.<br>
+                      <Kindergarten services during your stay with pick-up and drop off."
   service_name3: "Doctors"
   service_desc3_html: "#From ordinary health checkups to surgeries, executed by english speaking doctors.<br>
                        #Primary, secondary, tertiary as well as public health services."
