@@ -31,7 +31,7 @@ en:
   #header file
   header_title_singularity: "Locals"
   header_toogle_nav: "Toggle navigation"
-  header_how_we_help_you: "How we help you"
+  header_how_we_help_you: "Kktina"
   header_our_service: "Our service"
   header_contact_us: "Contact us"
 
@@ -39,16 +39,16 @@ en:
   welcome_slogan1: "Focus on things that matter to you."
   welcome_slogan2: "We will manage the rest"
   welcome_booking: "Booking on: 00-421-900-000-001"
-  welcome_scroll_button: "How we help you"
+  welcome_scroll_button: "Learn more"
 
   #how we help you file
   how_we_help_headline: "How we help you"
-  how_we_help_image_label1: "Give us your request"
-  how_we_help_image_description1: "Call us using our mobile app or directly by phone number"
-  how_we_help_image_label2: "Give us your request"
-  how_we_help_image_description2: "Call us using our mobile app or directly by phone number"
-  how_we_help_image_label3: "Give us your request"
-  how_we_help_image_description3: "Call us using our mobile app or directly by phone number"
+  how_we_help_image_label1: "Your Request or Question"
+  how_we_help_image_description1: "Call us or Text us, form Your request or ask us your question. "
+  how_we_help_image_label2: "Confirm Your Request, Get an Answer"
+  how_we_help_image_description2: "When You feel the question or request is too complex, don’t hesitate to call us."
+  how_we_help_image_label3: "Locals deliver!"
+  how_we_help_image_description3: "Enjoy Your time, We will handle the request and update You on the progress."
   how_we_help_scroll_button: "Our service"
 
   #our services
